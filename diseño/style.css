@@ -1,0 +1,98 @@
+/* diseño/estilos.css */
+
+/*body { background-image: url("/AXGuxq94_400x400.jpg");}*/
+body { background-image: url("/AXGuxq94_400x400.jpg"); background-size: 640px 630px; }
+/*body { background-image: url("/AXGuxq94_400x400.jpg"); background-repeat: no-repeat;}*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff4d4d; /* Fondo rojo */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#maquina{
+    width: 80px;
+    height: 8px;
+}
+
+#conductor {
+    width: 300px;
+    height: 10px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#maquina, #conductor {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+label {
+    display: block;
+    margin: 5px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    margin-left: 45%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
