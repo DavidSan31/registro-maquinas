@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Máquinas</title>
+    <link rel="stylesheet" href="diseño/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Novedades Máquinas CBVF</h1>
+        </header>
+        
+        <div class="form-container">
+
+            <form action="http://localhost/php/procesar_formulario.php" method="POST">
+                <div class="form-group">
+                    <label for="serial">Serial del Formato:</label>
+                    <input type="text" id="serial" name="serial" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="maquina">Nombre de la Máquina:</label>
+                    <input type="text" id="maquina" name="maquina" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="conductor">Nombre del Conductor:</label>
+                    <input type="text" id="conductor" name="conductor" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="observaciones">Observaciones:</label>
+                    <textarea id="observaciones" name="observaciones" rows="4" required></textarea>
+                </div>
+            
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>            
+        </div>
+    </div>
+</body>
+</html>
